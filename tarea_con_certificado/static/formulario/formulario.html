@@ -1,0 +1,49 @@
+{% extends 'base/base.html' %} 
+{% block title %} 
+Formulario 
+{%endblock title %} 
+{% load static %} 
+{% block content %} 
+{%include 'base/tor_bar.html' %}
+<header>
+    <form method="get"> {% csrf_token %}
+        {% block error %} {% endblock error %}
+    <div class="margin-vertical-3">
+        <div style="width: 50%; margin: auto; margin-top:5% ;">
+            <div style="border: 1.5px solid green;border-radius: 5px;">
+                <div class="grid-x grid-padding-x text-center">
+                    <p class="cell small-4">Nombre</p>
+                    <p class="cell small-4">Primer apellido</p>
+                    <p class="cell small-4">Segundo apellido</p>
+
+                </div>
+                <div class="grid-x grid-padding-x text-center">
+                    <input class="cell small-4" type="text" name="nombre" placeholder="Nombre" maxlength="10">
+                    <input class="cell small-4" type="text" name="apellido1" placeholder="Primer apellido" maxlength="10">
+                    <input class="cell small-4" type="text" name="apellido2" placeholder="Segundo apellido"maxlength="10">
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <p class="cell">Dni</p>
+                    <input type="text" name="dni" maxlength="9" placeholder="Dni">
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <p class="cell">Texto</p>
+                    <textarea name="texto" placeholder="Texto" style="height: 100px;"maxlength=512></textarea>
+                </div>
+
+
+            </div>
+            <center><button type="submit" class="submit success button" style="margin-top: 5%;">Opciones</button></center>
+
+            </table>
+        </div>
+
+    </div>
+
+</form>
+</header><!-- /header -->
+
+
+
+
+{% endblock content %}

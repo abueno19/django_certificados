@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  db:
+    container_name: pg_container
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: test_db
+  web:
+    build: .
+    command: supervisord -n
+    ports:
+      - "8000:8001"
+    links:
+      - db
+    volumes:
+      - ./tarea_con_certificado:/code
+      - ./nginx.conf.d/:/etc/nginx/sites-available
+      - ./supervisor.conf.d/:/etc/supervisor/conf.d/

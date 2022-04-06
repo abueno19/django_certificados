@@ -1,0 +1,18 @@
+{% extends 'base/base.html' %} 
+{% block title %} 
+Lista 
+{%endblock title %} 
+{% load static %} 
+{% block content %} 
+    <img src="media/tangram.png" style="width: 100px">
+    <br>
+    <h2 style="margin-left: 90px;">Estimad@ {{nombre}} {{apellido1}} {{apellido2}},</h2>
+    <br>
+    <h4 style="margin-left: 100px; margin-right: 120px">{{texto}}</h4>
+    <br><br>
+    <h3 style="text-align:right; margin-right: 120px;">Gracias, atentamente a las {{fecha}}</h3>
+
+
+
+
+{% endblock content %}

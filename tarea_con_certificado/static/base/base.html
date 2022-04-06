@@ -1,0 +1,27 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;">{% csrf_token %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>{%block title %} {%endblock title %}
+    </title>
+    <link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+
+
+</head>
+
+<body>
+    {% block content %} {% endblock content %}
+    <script src="{% static 'js/vendor/jquery.js' %}"></script>
+    <script src="{% static 'js/vendor/what-input.js' %}"></script>
+    <script src="{% static 'js/vendor/foundation.min.js' %}"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+
+</body>
+
+</html>
