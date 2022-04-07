@@ -6,43 +6,114 @@ Formulario
 {% block content %} 
 {%include 'base/tor_bar.html' %}
 <header>
-    <form method="get"> {% csrf_token %}
-        {% block error %} {% endblock error %}
-    <div class="margin-vertical-3">
-        <div style="width: 50%; margin: auto; margin-top:5% ;">
-            <div style="border: 1.5px solid green;border-radius: 5px;">
-                <div class="grid-x grid-padding-x text-center">
-                    <p class="cell small-4">Nombre</p>
-                    <p class="cell small-4">Primer apellido</p>
-                    <p class="cell small-4">Segundo apellido</p>
-
-                </div>
-                <div class="grid-x grid-padding-x text-center">
-                    <input class="cell small-4" type="text" name="nombre" placeholder="Nombre" maxlength="10">
-                    <input class="cell small-4" type="text" name="apellido1" placeholder="Primer apellido" maxlength="10">
-                    <input class="cell small-4" type="text" name="apellido2" placeholder="Segundo apellido"maxlength="10">
+    <form method="get" > {% csrf_token %}
+    <div class="margin-vertical-">
+        <div style="width: 25%; margin: auto; margin-top:5% ;">
+            <div class="callout secondary">
+                <div class="grid-x grid-padding-x">
+                    <p>Nombre</p>
                 </div>
                 <div class="grid-x grid-padding-x">
-                    <p class="cell">Dni</p>
-                    <input type="text" name="dni" maxlength="9" placeholder="Dni">
+                    <input  type="text" name="nombre" placeholder="Nombre" maxlength="15" value="{% block nombre %}{% endblock nombre %}" required>
                 </div>
                 <div class="grid-x grid-padding-x">
-                    <p class="cell">Texto</p>
-                    <textarea name="texto" placeholder="Texto" style="height: 100px;"maxlength=512></textarea>
+                    <p >Primer apellido</p>
                 </div>
-
+                <div class="grid-x grid-padding-x">
+                    <input  type="text" name="apellido1" placeholder="Primer apellido" maxlength="15" value="{% block apellido1 %}{% endblock apellido1 %}"  required>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <p>Segundo apellido</p>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <input  type="text" name="apellido2" placeholder="Segundo apellido"maxlength="15" value="{% block apellido2 %}{% endblock apellido2 %}"  required>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <p >Dni</p>
+                    
+                </div>
+                <div class="grid-x grid-padding-x">
+                    
+                    <input type="text" name="dni" id="dni" maxlength="9" placeholder="Dni" value="{% block dni %}{% endblock dni %}" required>
+                    <p style="color: red;" id="error" class="cell "></p>
+                    {% block error_dni %}{% endblock error_dni %}
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <p >Texto</p>
+                    <textarea name="texto" placeholder="Texto" style="height: 100px;"maxlength=512 value="{% block texto %}{% endblock texto %}" required ></textarea>
+                </div>
+                {% block error_campo %}{% endblock error_campo %}
 
             </div>
-            <center><button type="submit" class="submit success button" style="margin-top: 5%;">Opciones</button></center>
+            <center><button type="submit" value="submit request" class="submit success button"  style="margin-top: 5%;" onsubmit="return nif()">
+            Continuar</button></center>
+            
 
             </table>
         </div>
+        <script>
+
+    
+function nif(event) {
+                    var dni = document.getElementById("dni").value;
+                    var numero
+                    var letr
+                    var letra
+                    var expresion_regular_dni
+
+                    expresion_regular_dni = /^\d{8}[a-zA-Z]$/;
+
+                    if(expresion_regular_dni.test (dni) == true){
+                        numero = dni.substr(0,dni.length-1);
+                        letr = dni.substr(dni.length-1,1);
+                        numero = numero % 23;
+                        letra='TRWAGMYFPDXBNJZSQVHLCKET';
+                        letra=letra.substring(numero,numero+1);
+                        if (letra!=letr.toUpperCase()) {
+                            
+                            document.getElementById("error").innerHTML="Dni incorrecto";
+                            
+
+                            return false
+                        }else{
+                            return true
+                        }
+                    }else{
+                        
+                        document.getElementById("error").innerHTML="Dni incorrecto";
+                        
+
+                        return false
+                    }
+                }
+</script>
 
     </div>
 
 </form>
+<center><button class="success button" onclick="browseDatos('', document.getElementById('data'), document.getElementById('dataFilename'));">prueba</button></center>
 </header><!-- /header -->
+<script type="text/javascript">
+            function browseDatos(title) {
+            try {
+                AutoScript.getFileNameContentBase64(
+                        title,
+                        null,
+                        null,
+                        null,
+                        showLoadDataResultCallback, showErrorCallback);
 
+            } catch (e) {
+                showLog("Type: " + AutoScript.getErrorType() + "\nMessage: "
+                        + AutoScript.getErrorMessage());
+            }
+        }
+        function showLog(newLog) {
+            document.getElementById('console').value = document
+                    .getElementById('console').value
+                    + "\n" + newLog;
+        }
+</script>
 
 
 

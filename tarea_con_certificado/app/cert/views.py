@@ -14,11 +14,11 @@ from datetime import datetime
 from django.template.loader import get_template
 
 # Create your views here.
-"""
+"""	
 
 """
 
-def formulario(request):  
+def formulario(request):
 	
 	if request.method=="GET":
 		formulario=[]
@@ -27,29 +27,39 @@ def formulario(request):
 		formulario.append(request.GET.get("apellido2",""))
 		formulario.append(request.GET.get("dni",""))
 		formulario.append(request.GET.get("texto",""))
+		dic = {'nombre': formulario[0],"apellido1":formulario[1],"apellido2":formulario[2],"dni":formulario[3],"texto":formulario[4],"fecha":datetime.today()}
 		f = open ("kk.txt", "a") 
 		
 		for i in formulario:
-			f.write(str(i)+"\n")
+			f.write(str(i)+"   "+str(dic)+"\n") 
 		
 			
 		f.close()
-		if validoDNI(formulario[3])==False:
-			return render(request,"formulario/Error.html")
+		if nada(formulario):
+			return render(request, "formulario/formulario.html",{"dic":dic})
+		elif validoDNI(formulario[3])==False:
+			return render(request,"formulario/Error_dni.html",{"dic":dic})
+		elif validar_formulario(formulario)==False:
+			return render(request,"formulario/Error_campo.html",{"dic":dic})
 		elif validar_formulario(formulario):
 			return usuario_render_pdf_view(request,formulario)
 	succes_url=reverse_lazy("opciones:opciones") 
-	return render(request, "formulario/formulario.html")
-def validar_formulario(formulario):
-	for i in formulario:
-		if i==False:
+	return render(request, "formulario/formulario.html",{"dic":dic})
+def validar_formulario(lista2=[]):
+	for i in lista2:	
+
+		if not i:
+			f = open ("kk.txt", "a")  
+			f.write("Error_dni "+str(i)+"\n")
+			f.close()
+			return False 
+	return True
+def nada(lista):
+	for i in lista:
+
+		if i:
 			return False
 	return True
-			
-
-
- 
-
 def validoDNI(dni): 
     tabla = "TRWAGMYFPDXBNJZSQVHLCKE"
     dig_ext = "XYZ"

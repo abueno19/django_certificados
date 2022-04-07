@@ -1841,3 +1841,2638 @@ expected string or bytes-like object
 Not Found: /favicon.ico
 expected string or bytes-like object
 expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 23)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 11:31:17 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 08:29:55
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 108a74b49829
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:34555 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560f5bf0ef90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560f5bf0ef90 pid: 11 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 37, cores: 1)
+spawned uWSGI worker 2 (pid: 38, cores: 1)
+spawned uWSGI worker 3 (pid: 39, cores: 1)
+spawned uWSGI worker 4 (pid: 40, cores: 1)
+spawned uWSGI worker 5 (pid: 41, cores: 1)
+spawned uWSGI worker 6 (pid: 42, cores: 1)
+spawned uWSGI worker 7 (pid: 43, cores: 1)
+spawned uWSGI worker 8 (pid: 44, cores: 1)
+spawned uWSGI worker 9 (pid: 45, cores: 1)
+spawned uWSGI worker 10 (pid: 46, cores: 1)
+spawned uWSGI http 1 (pid: 47)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 12:53:52 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:42415 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55aa33929fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55aa33929fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+expected string or bytes-like object
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+expected string or bytes-like object
+expected string or bytes-like object
+expected string or bytes-like object
+expected string or bytes-like object
+Not Found: /
+Wed Apr  6 17:57:09 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Wed Apr  6 17:57:09 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:22:21 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:45743 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56081945cf90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56081945cf90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:22:31 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:44863 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a3b2d45fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a3b2d45fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:24:54 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:43651 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558fec7a7f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558fec7a7f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:25:05 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:42519 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d3f66f5fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d3f66f5fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 42, in formulario
+    return usuario_render_pdf_view(request,formulario)
+  File "/code/./app/cert/views.py", line 71, in usuario_render_pdf_view
+    context = {'nombre': lista[0],"apellido1":lista[1],"apellido2":lista[2],"dni":lista[3],"texto":lista[4],"fecha":datetime.today()}
+IndexError: list index out of range
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 39, in formulario
+    elif validar_formulario(formulario)==False:
+  File "/code/./app/cert/views.py", line 47, in validar_formulario
+    for i in formulario:
+TypeError: 'function' object is not iterable
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 42, in formulario
+    return usuario_render_pdf_view(request,formulario)
+  File "/code/./app/cert/views.py", line 71, in usuario_render_pdf_view
+    context = {'nombre': lista[0],"apellido1":lista[1],"apellido2":lista[2],"dni":lista[3],"texto":lista[4],"fecha":datetime.today()}
+IndexError: list index out of range
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 39, in formulario
+    elif validar_formulario(formulario)==False:
+  File "/code/./app/cert/views.py", line 47, in validar_formulario
+    for i in lista2:
+TypeError: 'function' object is not iterable
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 39, in formulario
+    elif validar_formulario(formulario)==False:
+  File "/code/./app/cert/views.py", line 47, in validar_formulario
+    if i==False and i!=lista2[3]:
+TypeError: 'function' object is not iterable
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 39, in formulario
+    elif validar_formulario(formulario)==False:
+  File "/code/./app/cert/views.py", line 47, in validar_formulario
+    if i==False and i!=lista2[3]:
+TypeError: 'function' object is not iterable
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 39, in formulario
+    elif validar_formulario(formulario)==False:
+  File "/code/./app/cert/views.py", line 47, in validar_formulario
+    if i==False and i!=lista2[3]:
+TypeError: 'function' object is not iterable
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 9 buried after 1 seconds
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:33:58 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:46099 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556991838f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556991838f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:34:08 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:39093 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c742381fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c742381fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:35:38 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:36045 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d6abd3ef90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d6abd3ef90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:35:48 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:43537 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56373c46cfc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56373c46cfc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:47:36 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:38935 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5568c6c67f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5568c6c67f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:47:47 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:40561 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c3009fffc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c3009fffc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:49:38 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:40083 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55baa548bf90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55baa548bf90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:49:48 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:43833 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b2a8e1cfc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b2a8e1cfc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 10 buried after 1 seconds
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:50:17 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:33757 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560cdab2af90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560cdab2af90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:50:26 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:37831 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561ec7efefc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561ec7efefc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:52:22 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:38089 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56177ee0bf90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56177ee0bf90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:52:32 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:36661 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b6465abfc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b6465abfc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:55:04 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:40093 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555d190caf90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x555d190caf90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:55:14 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:34329 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557a471cffc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557a471cffc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:58:08 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:45813 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558d242d3f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558d242d3f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Apr  6 18:58:19 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:33333 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f02fc04fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f02fc04fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+expected string or bytes-like object
+Thu Apr  7 06:32:36 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Thu Apr  7 06:32:36 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:34:36 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:33441 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f9e8fdaf90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f9e8fdaf90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:34:46 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:34785 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56000c578fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56000c578fc0 pid: 11 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 13, cores: 1)
+spawned uWSGI worker 2 (pid: 14, cores: 1)
+spawned uWSGI worker 3 (pid: 15, cores: 1)
+spawned uWSGI worker 4 (pid: 16, cores: 1)
+spawned uWSGI worker 5 (pid: 17, cores: 1)
+spawned uWSGI worker 6 (pid: 18, cores: 1)
+spawned uWSGI worker 7 (pid: 19, cores: 1)
+spawned uWSGI worker 8 (pid: 20, cores: 1)
+spawned uWSGI worker 9 (pid: 21, cores: 1)
+spawned uWSGI worker 10 (pid: 22, cores: 1)
+spawned uWSGI http 1 (pid: 23)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 23)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:36:22 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:43845 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562e865f5f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562e865f5f90 pid: 11 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 30, cores: 1)
+spawned uWSGI worker 2 (pid: 31, cores: 1)
+spawned uWSGI worker 3 (pid: 32, cores: 1)
+spawned uWSGI worker 4 (pid: 33, cores: 1)
+spawned uWSGI worker 5 (pid: 34, cores: 1)
+spawned uWSGI worker 6 (pid: 35, cores: 1)
+spawned uWSGI worker 7 (pid: 36, cores: 1)
+spawned uWSGI worker 8 (pid: 37, cores: 1)
+spawned uWSGI worker 9 (pid: 38, cores: 1)
+spawned uWSGI worker 10 (pid: 39, cores: 1)
+spawned uWSGI http 1 (pid: 40)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:36:32 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:42953 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562b69d4efc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562b69d4efc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:37:39 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:39617 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561b03372f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561b03372f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:37:49 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:33039 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c948a8bfc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c948a8bfc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:38:35 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:43061 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5558041a1f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5558041a1f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:38:45 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:42685 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557bc3f40fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557bc3f40fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:39:55 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:46677 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555aedd90f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x555aedd90f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:40:05 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:46081 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560b4db4efc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560b4db4efc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+expected string or bytes-like object
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:51:05 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:40003 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55eb79e33f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55eb79e33f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:51:15 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:41475 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5640dad07fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5640dad07fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:52:05 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:44069 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b0f4c92f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b0f4c92f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:52:15 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:36775 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ecc62c6fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ecc62c6fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:58:36 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:37057 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a8dc96ef90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a8dc96ef90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 06:58:46 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:39947 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55781b38efc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55781b38efc0 pid: 11 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 13, cores: 1)
+spawned uWSGI worker 2 (pid: 14, cores: 1)
+spawned uWSGI worker 3 (pid: 15, cores: 1)
+spawned uWSGI worker 4 (pid: 16, cores: 1)
+spawned uWSGI worker 5 (pid: 17, cores: 1)
+spawned uWSGI worker 6 (pid: 18, cores: 1)
+spawned uWSGI worker 7 (pid: 19, cores: 1)
+spawned uWSGI worker 8 (pid: 20, cores: 1)
+spawned uWSGI worker 9 (pid: 21, cores: 1)
+spawned uWSGI worker 10 (pid: 22, cores: 1)
+spawned uWSGI http 1 (pid: 23)
+gateway "uWSGI http 1" has been buried (pid: 23)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:03:21 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:45329 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55acf278df90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55acf278df90 pid: 11 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 30, cores: 1)
+spawned uWSGI worker 2 (pid: 31, cores: 1)
+spawned uWSGI worker 3 (pid: 32, cores: 1)
+spawned uWSGI worker 4 (pid: 33, cores: 1)
+spawned uWSGI worker 5 (pid: 34, cores: 1)
+spawned uWSGI worker 6 (pid: 35, cores: 1)
+spawned uWSGI worker 7 (pid: 36, cores: 1)
+spawned uWSGI worker 8 (pid: 37, cores: 1)
+spawned uWSGI worker 9 (pid: 38, cores: 1)
+spawned uWSGI worker 10 (pid: 39, cores: 1)
+spawned uWSGI http 1 (pid: 40)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:03:31 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:38901 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5647c1fc0fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5647c1fc0fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 41, in formulario
+    return render(request,"formulario/Error_dni.html",context)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 163, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 284, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 222, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 479, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 477, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 593, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 692, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[nombre]' from 'dic[nombre]'
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:08:04 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:42095 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560598fe4f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560598fe4f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:08:14 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:41997 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561f3fc7dfc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561f3fc7dfc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 34, in formulario
+    f.write(str(i)+"   "+str(context)+"\n")
+NameError: name 'context' is not defined
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:08:35 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:42779 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d2a35c6f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d2a35c6f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:08:45 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:45857 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b12fc21fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b12fc21fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+Internal Server Error: /formulario_v1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 41, in formulario
+    return render(request,"formulario/Error_dni.html",dic)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 163, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 284, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 222, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 479, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 477, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 593, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 692, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[nombre]' from 'dic[nombre]'
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:14:21 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:45659 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55db6eec6f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55db6eec6f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:14:31 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:43595 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561d5a17bfc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561d5a17bfc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:16:07 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:37015 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557066d60f90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557066d60f90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr  7 07:16:17 2022] ***
+compiled with version: 8.3.0 on 06 April 2022 11:34:52
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: 1ca720a3cfe9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:40663 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c7341effc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c7341effc0 pid: 11 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 13, cores: 1)
+spawned uWSGI worker 2 (pid: 14, cores: 1)
+spawned uWSGI worker 3 (pid: 15, cores: 1)
+spawned uWSGI worker 4 (pid: 16, cores: 1)
+spawned uWSGI worker 5 (pid: 17, cores: 1)
+spawned uWSGI worker 6 (pid: 18, cores: 1)
+spawned uWSGI worker 7 (pid: 19, cores: 1)
+spawned uWSGI worker 8 (pid: 20, cores: 1)
+spawned uWSGI worker 9 (pid: 21, cores: 1)
+spawned uWSGI worker 10 (pid: 22, cores: 1)
+spawned uWSGI http 1 (pid: 23)
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Thu Apr  7 08:54:53 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Thu Apr  7 08:54:53 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Thu Apr  7 08:54:53 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Thu Apr  7 08:54:53 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+Thu Apr  7 08:54:53 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+Thu Apr  7 08:54:53 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+Not Found: /favicon.ico
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+expected string or bytes-like object
+expected string or bytes-like object
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+Not Found: /favicon.ico
+Thu Apr  7 09:20:02 2022 - uwsgi_response_sendfile_do(): Connection reset by peer [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+expected string or bytes-like object
+expected string or bytes-like object
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+expected string or bytes-like object
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+expected string or bytes-like object
+expected string or bytes-like object
+expected string or bytes-like object
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Thu Apr  7 09:51:57 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Thu Apr  7 09:51:57 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Thu Apr  7 09:51:57 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /static/css/foundation.min.css (ip 172.18.0.1) !!!
+Thu Apr  7 09:51:57 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+Thu Apr  7 09:51:57 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+Thu Apr  7 09:51:57 2022 - uwsgi_response_sendfile_do(): Broken pipe [core/writer.c line 655] during GET /static/css/foundation.min.css (172.18.0.1)
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+expected string or bytes-like object
+Not Found: /favicon.ico
+expected string or bytes-like object
+expected string or bytes-like object
+expected string or bytes-like object
+Not Found: /favicon.ico
+expected string or bytes-like object
+Not Found: /
+expected string or bytes-like object
+expected string or bytes-like object
+Not Found: /favicon.ico
+expected string or bytes-like object
+expected string or bytes-like object
+Not Found: /favicon.ico
+Not Found: /favicon.ico

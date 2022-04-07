@@ -1,0 +1,11 @@
+{% extends 'formulario/formulario.html' %} 
+{% block error_dni %}
+<div class="warning callout">
+	<h5>Error: dni incorrecto</h5>
+</div>
+{% endblock error_dni %}
+{% block nombre %}{{dic.nombre}}{% endblock nombre %}
+{% block apellido1 %}{{dic.apellido1}}{% endblock apellido1 %}
+{% block apellido2 %}{{dic.apellido2}}{% endblock apellido2 %}
+{% block dni %}{{dic.dni}}{% endblock dni %}
+{% block texto %}{{dic.texto}}{% endblock texto %}

@@ -1,0 +1,11 @@
+{% extends 'formulario/formulario.html' %} 
+{% block error_campo %}
+<div class="warning callout" style="width: 50%; margin: auto; margin-top:2% ;">
+	<h5>Hay un error en unos de los campos </h5>
+</div>
+{% endblock error_campo %}
+{% block nombre %}{{dic.nombre}}{% endblock nombre %}
+{% block apellido1 %}{{dic.apellido1}}{% endblock apellido1 %}
+{% block apellido2 %}{{dic.apellido2}}{% endblock apellido2 %}
+{% block dni %}{{dic.dni}}{% endblock dni %}
+{% block texto %}{{dic.texto}}{% endblock texto %}
