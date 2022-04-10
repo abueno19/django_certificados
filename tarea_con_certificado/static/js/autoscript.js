@@ -105,20 +105,7 @@ var AutoScript = ( function ( window, undefined ) {
         function isWebSocketsSupported() {
         	return 'WebSocket' in window || 'MozWebSocket' in window;
         }
-        function browseDatos(title) {
-			try {
-				AutoScript.getFileNameContentBase64(
-						title,
-						null,
-						null,
-						null,
-						showLoadDataResultCallback, showErrorCallback);
 
-			} catch (e) {
-				showLog("Type: " + AutoScript.getErrorType() + "\nMessage: "
-						+ AutoScript.getErrorMessage());
-			}
-		}
 
 		/** Comprueba si una cadena de texto es una URL (http/https). La alternativa implicaria ser un Base64. */ 
 		function isValidUrl(data) { 

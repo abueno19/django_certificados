@@ -9,6 +9,7 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: test_db
   web:
+    container_name: django
     build: .
     command: supervisord -n
     ports:

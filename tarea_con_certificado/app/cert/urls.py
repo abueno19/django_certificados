@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from . import views
-
+app_name="opciones"
 urlpatterns = [
-    path("formulario_v1/",views.formulario,name="formulario_v1") 
+    path("formulario_v1/",views.formulario,name="formulario_v1"),
+    path("api_prueba/",views.prueba_api,name="api_prueba"),
+    
 
 
 

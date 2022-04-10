@@ -6,7 +6,7 @@ Formulario
 {% block content %} 
 {%include 'base/tor_bar.html' %}
 <header>
-    <form method="get" > {% csrf_token %}
+    <form method="get" onsubmit="return nif()"> {% csrf_token %}
     <div class="margin-vertical-">
         <div style="width: 25%; margin: auto; margin-top:5% ;">
             <div class="callout secondary">
@@ -14,19 +14,19 @@ Formulario
                     <p>Nombre</p>
                 </div>
                 <div class="grid-x grid-padding-x">
-                    <input  type="text" name="nombre" placeholder="Nombre" maxlength="15" value="{% block nombre %}{% endblock nombre %}" required>
+                    <input  type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="15" value="{% block nombre %}{% endblock nombre %}" required>
                 </div>
                 <div class="grid-x grid-padding-x">
                     <p >Primer apellido</p>
                 </div>
                 <div class="grid-x grid-padding-x">
-                    <input  type="text" name="apellido1" placeholder="Primer apellido" maxlength="15" value="{% block apellido1 %}{% endblock apellido1 %}"  required>
+                    <input  type="text" name="apellido1" id="apellido1" placeholder="Primer apellido" maxlength="15" value="{% block apellido1 %}{% endblock apellido1 %}"  required>
                 </div>
                 <div class="grid-x grid-padding-x">
                     <p>Segundo apellido</p>
                 </div>
                 <div class="grid-x grid-padding-x">
-                    <input  type="text" name="apellido2" placeholder="Segundo apellido"maxlength="15" value="{% block apellido2 %}{% endblock apellido2 %}"  required>
+                    <input  type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido"maxlength="15" value="{% block apellido2 %}{% endblock apellido2 %}"  required>
                 </div>
                 <div class="grid-x grid-padding-x">
                     <p >Dni</p>
@@ -34,65 +34,30 @@ Formulario
                 </div>
                 <div class="grid-x grid-padding-x">
                     
-                    <input type="text" name="dni" id="dni" maxlength="9" placeholder="Dni" value="{% block dni %}{% endblock dni %}" required>
+                    <input type="text" name="dni" id="dni" maxlength="9" placeholder="Dni"  value="{% block dni %}{% endblock dni %}" required>
                     <p style="color: red;" id="error" class="cell "></p>
                     {% block error_dni %}{% endblock error_dni %}
                 </div>
                 <div class="grid-x grid-padding-x">
                     <p >Texto</p>
-                    <textarea name="texto" placeholder="Texto" style="height: 100px;"maxlength=512 value="{% block texto %}{% endblock texto %}" required ></textarea>
+                    <textarea name="texto" placeholder="Texto" id="texto" style="height: 100px;"maxlength=512 value="{% block texto %}{% endblock texto %}" required ></textarea>
                 </div>
                 {% block error_campo %}{% endblock error_campo %}
 
             </div>
-            <center><button type="submit" value="submit request" class="submit success button"  style="margin-top: 5%;" onsubmit="return nif()">
+            <center><button  type="submit" value="submit request" class="submit success button"  style="margin-top: 5%;" onsubmit="return nif()">
             Continuar</button></center>
             
 
             </table>
         </div>
-        <script>
 
-    
-function nif(event) {
-                    var dni = document.getElementById("dni").value;
-                    var numero
-                    var letr
-                    var letra
-                    var expresion_regular_dni
-
-                    expresion_regular_dni = /^\d{8}[a-zA-Z]$/;
-
-                    if(expresion_regular_dni.test (dni) == true){
-                        numero = dni.substr(0,dni.length-1);
-                        letr = dni.substr(dni.length-1,1);
-                        numero = numero % 23;
-                        letra='TRWAGMYFPDXBNJZSQVHLCKET';
-                        letra=letra.substring(numero,numero+1);
-                        if (letra!=letr.toUpperCase()) {
-                            
-                            document.getElementById("error").innerHTML="Dni incorrecto";
-                            
-
-                            return false
-                        }else{
-                            return true
-                        }
-                    }else{
-                        
-                        document.getElementById("error").innerHTML="Dni incorrecto";
-                        
-
-                        return false
-                    }
-                }
-</script>
 
     </div>
 
 </form>
 <center><button class="success button" onclick="browseDatos('', document.getElementById('data'), document.getElementById('dataFilename'));">prueba</button></center>
-</header><!-- /header -->
+</header>
 <script type="text/javascript">
             function browseDatos(title) {
             try {
@@ -113,6 +78,65 @@ function nif(event) {
                     .getElementById('console').value
                     + "\n" + newLog;
         }
+</script>
+<script>
+var HttpClient = function() {
+    this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() { 
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        }
+
+        anHttpRequest.open( "GET", aUrl, true );            
+        anHttpRequest.send( null );
+    }
+}
+
+    
+function nif(event) {
+                    document.cookie = "nombre="+document.getElementById("nombre").value+"; SameSite=None; Secure";
+                    document.cookie = "apellido1="+document.getElementById("apellido1").value+"; SameSite=None; Secure";
+                    document.cookie = "apellido2="+document.getElementById("apellido2").value+"; SameSite=None; Secure";
+                    document.cookie = "dni="+document.getElementById("dni").value+"; SameSite=None; Secure";
+                    document.cookie = "texto="+document.getElementById("texto").value+"; SameSite=None; Secure";
+                    var dni = document.getElementById("dni").value;
+                    var numero
+                    var letr
+                    var letra
+                    var expresion_regular_dni
+
+                    expresion_regular_dni = /^\d{8}[a-zA-Z]$/;
+
+                    if(expresion_regular_dni.test (dni) == true){
+                        numero = dni.substr(0,dni.length-1);
+                        letr = dni.substr(dni.length-1,1);
+                        numero = numero % 23;
+                        letra='TRWAGMYFPDXBNJZSQVHLCKET';
+                        letra=letra.substring(numero,numero+1);
+                        if (letra!=letr.toUpperCase()) {
+                            
+                            document.getElementById("error").innerHTML="Dni incorrecto";
+                            document.cookie = "test1=Hello; SameSite=None; Secure";
+
+                            return false
+                        }else{
+                            
+                            var i = document.createElement("a")
+                            i.href = "http://localhost:8000/api_prueba/?nombre=sfsa&apellido1=sd&apellido2=das&dni=31031786w&texto=dasesfsd";
+                            i.download="file.pdf";
+                            i.dispatchEvent(new MouseEvent('click'));
+                            document.getElementById("error").innerHTML= i;
+                            return false
+                        }
+                    }else{
+                        
+                        document.getElementById("error").innerHTML="Dni incorrecto";
+                        
+
+                        return false
+                    }
+                }
 </script>
 
 

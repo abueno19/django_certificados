@@ -1,0 +1,32 @@
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> No ha entrado
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> No ha entrado
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> No ha entrado
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> No ha entrado
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
