@@ -74,7 +74,7 @@ Formulario de confirmación
 			try {
 
 				AutoScript.downloadRemoteData(
-						"http://localhost:8000/api_prueba/?nombre=sfsa&apellido1=sd&apellido2=das&dni=31031786w&texto=dasesfsd&descarga=True",
+						"http://localhost:8000/api_prueba/?nombre="+getCookie("nombre")+"&apellido1="+getCookie("apellido1")+"&apellido2="+getCookie("apellido2")+"&dni="+getCookie("dni")+"&texto="+getCookie("texto")+"&descarga="+"True",
 						doSignAndSave,
 						downloadedErrorCallback);
 			} catch(e) {
