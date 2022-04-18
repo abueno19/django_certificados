@@ -13,7 +13,7 @@ from xhtml2pdf import pisa
 from datetime import datetime
 from django.template.loader import get_template
 from io import StringIO, BytesIO
-
+from django.shortcuts import redirect
 # Create your views here.
 """	
 
@@ -22,25 +22,19 @@ from io import StringIO, BytesIO
 def formulario(request):
 	
 	if request.method=="GET":
-		formulario=[]
-		formulario.append(request.GET.get("nombre",""))
-		formulario.append(request.GET.get("apellido1",""))
-		formulario.append(request.GET.get("apellido2",""))
-		formulario.append(request.GET.get("dni",""))
-		formulario.append(request.GET.get("texto",""))
 		dic = {'nombre': request.GET.get("nombre",""),
 		"apellido1":request.GET.get("apellido1",""), 
 		"apellido2":request.GET.get("apellido2",""),
 		"dni":request.GET.get("dni",""),
 		"texto":request.GET.get("texto",""),
 		"fecha":datetime.today()}
-		if nada(formulario):
+		if validar_formulario(dic)==False:
 			return render(request, "formulario/formulario.html",{"dic":dic})
 		elif validoDNI(dic["dni"])==False:
 			return render(request,"formulario/Error_dni.html",{"dic":dic})
 		elif validar_formulario(dic):
 			insertar_en_base_de_datos(dic)
-			return usuario_render_pdf_view(request,dic)
+			return redirect("/formulario_confirmacion")
 	succes_url=reverse_lazy("opciones:opciones") 
 	return render(request, "formulario/formulario.html",{"dic":dic})
 def insertar_en_base_de_datos(datos):
@@ -58,7 +52,6 @@ def insertar_en_base_de_datos(datos):
 
 
 
-
 def validar_formulario(dic):
 	for i in dic.keys():	
 
@@ -68,11 +61,7 @@ def validar_formulario(dic):
 			f.close()
 			return False 
 	return True
-def nada(lista):
-	for i in lista:
 
-		if i:
-			return False
 	return True
 def validoDNI(dni): 
     tabla = "TRWAGMYFPDXBNJZSQVHLCKE"
@@ -101,7 +90,9 @@ def usuario_render_pdf_view(request,dic,descarga=False):
 	# find the template and render it.
 	template = get_template(template_path)
 	html = template.render(context) 
-
+	f = open ("log_pdf.txt", "a")  
+	f.write(" nuevo--> "+str(descarga)+"\n")
+	f.close()
     # create a pdf
 	if descarga:
 		result = BytesIO()
@@ -123,20 +114,38 @@ def usuario_render_pdf_view(request,dic,descarga=False):
 def prueba_api(request):
 	try:
 		if request.method=="GET":
+			"""
+
+			Esto sera para la v3
+			objeto_dic=cert.objects.get(
+				crsf=request.GET.get("crsf")
+				)
 			f = open ("log_api.txt", "a")  
-			f.write(" nuevo--> "+str(request.GET)+"\n")
+			f.write(" nuevo--> "+str(objeto_dic)+"\n")
 			f.close()
-			dic = {'nombre': request.GET.get("nombre",""),
-			"apellido1":request.GET.get("apellido1",""), 
-			"apellido2":request.GET.get("apellido2",""),
-			"dni":request.GET.get("dni",""),
-			"texto":request.GET.get("texto",""),
+			datos=str(objeto_dic).split("-")
+			dic = {'nombre': datos[0],
+			"apellido1":datos[1], 
+			"apellido2":datos[2],
+			"dni":datos[4],
+			"texto":datos[3],
+			"fecha":datetime.today()}
+			"""
+			dic = {'nombre': request.GET.get("nombre"),
+			"apellido1":request.GET.get("apellido1"), 
+			"apellido2":request.GET.get("apellido2"),
+			"dni":request.GET.get("dni"),
+			"texto":request.GET.get("texto"),
 			"fecha":datetime.today()}
 			f = open ("log_api.txt", "a")  
-			f.write(" nuevo--> "+str(request.GET)+"\n")
+			f.write(" nuevo--> "+str(dic)+"\n")
 			f.close()
 			if (validoDNI(dic["dni"])):
-				return usuario_render_pdf_view(request,dic,descarga=True)
+				if request.GET.get("descarga")=="True":
+					return usuario_render_pdf_view(request,dic,descarga=True)
+				else:
+					return usuario_render_pdf_view(request,dic)
+				
 		else:
 			f = open ("log_api.txt", "a")  
 			f.write(" nuevo--> "+str("No ha entrado")+"\n")
@@ -148,6 +157,32 @@ def prueba_api(request):
 		return render(request,"Error")
 
 	return render(request,"Error")
+
+def comprobacion_cookies(dic):
+	datos=["nombre","apellido1","apellido2","dni","texto"]
+	for i in datos:
+		if i not in dic.keys():
+			return False
+		if not dic[i]:
+			return False
+	return True
+
+def formulario_confirmacion(request):
+	if validar_formulario(request.COOKIES) and comprobacion_cookies(request.COOKIES):
+		for i in request.COOKIES.keys():
+
+			f = open ("log_prueba_.txt", "a")  
+			f.write(" nuevo--> "+i+" "+str(len(request.COOKIES.keys()))+"\n")
+			f.close()
+		"""
+		Aqui tendra que ir una comprobacion elaborada de las cookies
+		"""
+		return render(request,"formulario/formulario_confirmacion.html")
+	f = open ("log_prueba.txt", "a")  
+	f.write(" nuevo--> "+str(validar_formulario(request.COOKIES))+" "+str(len(request.COOKIES.keys()))+"\n")
+	f.close()
+	return redirect("/formulario_v1")
+
 
 	
 	

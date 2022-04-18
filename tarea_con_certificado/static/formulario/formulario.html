@@ -80,26 +80,22 @@ Formulario
         }
 </script>
 <script>
-var HttpClient = function() {
-    this.get = function(aUrl, aCallback) {
-        var anHttpRequest = new XMLHttpRequest();
-        anHttpRequest.onreadystatechange = function() { 
-            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
-                aCallback(anHttpRequest.responseText);
-        }
 
-        anHttpRequest.open( "GET", aUrl, true );            
-        anHttpRequest.send( null );
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
     }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
-
-    
 function nif(event) {
-                    document.cookie = "nombre="+document.getElementById("nombre").value+"; SameSite=None; Secure";
-                    document.cookie = "apellido1="+document.getElementById("apellido1").value+"; SameSite=None; Secure";
-                    document.cookie = "apellido2="+document.getElementById("apellido2").value+"; SameSite=None; Secure";
-                    document.cookie = "dni="+document.getElementById("dni").value+"; SameSite=None; Secure";
-                    document.cookie = "texto="+document.getElementById("texto").value+"; SameSite=None; Secure";
+                    setCookie("nombre",document.getElementById("nombre").value,4)
+                    setCookie("apellido1",document.getElementById("apellido1").value,4)
+                    setCookie("apellido2",document.getElementById("apellido2").value,4)
+                    setCookie("dni",document.getElementById("dni").value,4)
+                    setCookie("texto",document.getElementById("texto").value,4) 
                     var dni = document.getElementById("dni").value;
                     var numero
                     var letr
@@ -117,17 +113,12 @@ function nif(event) {
                         if (letra!=letr.toUpperCase()) {
                             
                             document.getElementById("error").innerHTML="Dni incorrecto";
-                            document.cookie = "test1=Hello; SameSite=None; Secure";
+                            
 
                             return false
                         }else{
                             
-                            var i = document.createElement("a")
-                            i.href = "http://localhost:8000/api_prueba/?nombre=sfsa&apellido1=sd&apellido2=das&dni=31031786w&texto=dasesfsd";
-                            i.download="file.pdf";
-                            i.dispatchEvent(new MouseEvent('click'));
-                            document.getElementById("error").innerHTML= i;
-                            return false
+                            return true
                         }
                     }else{
                         

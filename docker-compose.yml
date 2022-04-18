@@ -12,6 +12,7 @@ services:
     container_name: django
     build: .
     command: supervisord -n
+    restart: always
     ports:
       - "8000:8001"
     links:

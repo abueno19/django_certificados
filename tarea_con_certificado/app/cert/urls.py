@@ -20,6 +20,7 @@ app_name="opciones"
 urlpatterns = [
     path("formulario_v1/",views.formulario,name="formulario_v1"),
     path("api_prueba/",views.prueba_api,name="api_prueba"),
+    path("formulario_confirmacion",views.formulario_confirmacion,name="confirmacion"),
     
 
 

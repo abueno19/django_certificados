@@ -1,32 +1,123 @@
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
  nuevo--> No ha entrado
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
  nuevo--> No ha entrado
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> antonio-bueno-fuentes-ddfs-2
+ nuevo--> <QueryDict: {'crsf': ['4a0LTeJHMlEA0NEanw4g8tEnZcM4qWaYeGcqZfRTatkPbjdR4XGpFnrSGC4SNud5']}>
+ nuevo--> antonio-bueno-fuentes-ddfs-2
+ nuevo--> <QueryDict: {'descarga': ['True'], 'crsf': ['4a0LTeJHMlEA0NEanw4g8tEnZcM4qWaYeGcqZfRTatkPbjdR4XGpFnrSGC4SNud5']}>
+ nuevo--> antonio-bueno-fuentes-ddfs-31031786w
  nuevo--> No ha entrado
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> <QueryDict: {'descarga': ['True'], 'crsf': ['LkFRyqwyR96UofnOBQcQPKvXzWQzMayajvTV1XOM8cOsiEQ4lDgWsQrTZG3OV5E9']}>
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': 'a', 'texto': '31031786w', 'fecha': datetime.datetime(2022, 4, 17, 18, 0, 43, 641817)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': 'a', 'texto': '31031786w', 'fecha': datetime.datetime(2022, 4, 17, 18, 0, 44, 490095)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': 'a', 'texto': '31031786w', 'fecha': datetime.datetime(2022, 4, 17, 18, 0, 45, 606075)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': 'a', 'texto': '31031786w', 'fecha': datetime.datetime(2022, 4, 17, 18, 0, 47, 340065)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': 'a', 'texto': '31031786w', 'fecha': datetime.datetime(2022, 4, 17, 18, 0, 48, 160455)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': 'a', 'texto': '31031786w', 'fecha': datetime.datetime(2022, 4, 17, 18, 0, 52, 829157)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': 'a', 'texto': '31031786w', 'fecha': datetime.datetime(2022, 4, 17, 18, 0, 54, 924247)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': '31031786w', 'texto': 'a', 'fecha': datetime.datetime(2022, 4, 17, 18, 2, 27, 677584)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': '31031786w', 'texto': 'a', 'fecha': datetime.datetime(2022, 4, 17, 18, 2, 38, 920157)}
+ nuevo--> a-a-a-a-31031786w
+ nuevo--> {'nombre': 'a', 'apellido1': 'a', 'apellido2': 'a', 'dni': '31031786w', 'texto': 'a', 'fecha': datetime.datetime(2022, 4, 17, 18, 2, 49, 780305)}
  nuevo--> No ha entrado
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
- nuevo--> <QueryDict: {'nombre': ['sfsa'], 'apellido1': ['sd'], 'apellido2': ['das'], 'dni': ['31031786w'], 'texto': ['dasesfsd']}>
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 6, 34, 30, 97243)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 53, 35, 191544)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 53, 44, 291650)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 53, 51, 132683)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 6, 55, 33, 721728)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 55, 57, 79210)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 56, 14, 822779)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 58, 8, 231989)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 58, 16, 403746)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 58, 18, 155311)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 58, 23, 551706)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 6, 59, 42, 325131)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 7, 0, 58, 963601)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 7, 2, 5, 244793)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 7, 2, 18, 708752)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 7, 2, 26, 558288)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 7, 2, 41, 625439)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 7, 21, 29, 499917)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 7, 39, 17, 79480)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 7, 39, 54, 433899)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 8, 5, 48, 812320)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 8, 5, 51, 605568)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 7, 53, 135768)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 10, 39, 139322)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 10, 43, 712765)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 26, 35, 486497)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 33, 11, 386007)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 33, 25, 538206)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 8, 33, 26, 589577)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 35, 59, 393761)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 36, 4, 648604)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 36, 11, 786284)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 36, 21, 162208)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 39, 14, 161902)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 41, 56, 362474)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 42, 18, 366259)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 46, 18, 614414)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 46, 35, 936145)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 47, 23, 530976)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 48, 31, 783082)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 49, 0, 237793)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 42, 442931)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 47, 451322)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 50, 529061)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 50, 960488)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 51, 139247)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 51, 275762)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 51, 416650)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 56, 56, 633251)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 57, 26, 757059)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 59, 0, 502610)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 8, 59, 46, 53486)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 0, 25, 554831)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 13, 8, 861334)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 13, 22, 919810)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 14, 8, 272086)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 14, 23, 608298)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 16, 30, 180465)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 35, 57, 146883)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 38, 24, 300769)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 19, 699733)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 20, 727107)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 26, 161325)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 26, 910889)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 27, 79595)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 27, 247952)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 27, 417445)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 46, 32, 183987)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 48, 51, 461220)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 53, 56, 140839)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 1, 974658)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 2, 497802)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 11, 583673)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 13, 241859)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 13, 402324)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 13, 538360)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 13, 717779)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 13, 857960)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 14, 10265)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 9, 54, 14, 143662)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 5, 42, 708221)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 5, 51, 591646)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 6, 21, 793282)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 7, 26, 49732)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 32, 53, 420439)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 35, 5, 742169)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 35, 19, 13333)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 51, 52, 353701)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 53, 5, 249681)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 53, 56, 398279)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 54, 36, 949985)}
+ nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 56, 3, 557532)}

@@ -1272,3 +1272,26 @@ sa   {'nombre': 'sa', 'apellido1': 'sa', 'apellido2': 'sa', 'dni': '31031786w', 
    {'nombre': '', 'apellido1': '', 'apellido2': '', 'dni': '', 'texto': '', 'fecha': datetime.datetime(2022, 4, 8, 9, 21, 19, 635056)}
    {'nombre': '', 'apellido1': '', 'apellido2': '', 'dni': '', 'texto': '', 'fecha': datetime.datetime(2022, 4, 8, 9, 21, 19, 635056)}
    {'nombre': '', 'apellido1': '', 'apellido2': '', 'dni': '', 'texto': '', 'fecha': datetime.datetime(2022, 4, 8, 9, 21, 19, 635056)}
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
