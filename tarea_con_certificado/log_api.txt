@@ -121,3 +121,8 @@
  nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 53, 56, 398279)}
  nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 54, 36, 949985)}
  nuevo--> {'nombre': 'sfsa', 'apellido1': 'sd', 'apellido2': 'das', 'dni': '31031786w', 'texto': 'dasesfsd', 'fecha': datetime.datetime(2022, 4, 18, 10, 56, 3, 557532)}
+ nuevo--> {'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni': '31031786w', 'texto': 'sdf', 'fecha': datetime.datetime(2022, 4, 18, 12, 46, 44, 832443)}
+ nuevo--> {'nombre': 'antonio', 'apellido1': 'bueno', 'apellido2': 'fuentes', 'dni': '31031786w', 'texto': 'afasfdsfdsa', 'fecha': datetime.datetime(2022, 4, 18, 13, 23, 47, 537000)}
+ nuevo--> {'nombre': 'antonio', 'apellido1': 'bueno', 'apellido2': 'fuentes', 'dni': '31031786w', 'texto': 'afasfdsfdsa', 'fecha': datetime.datetime(2022, 4, 18, 13, 23, 51, 998317)}
+ nuevo--> {'nombre': 'antonio', 'apellido1': 'bueno', 'apellido2': 'fuentes', 'dni': '31031786w', 'texto': 'afasfdsfdsa', 'fecha': datetime.datetime(2022, 4, 18, 13, 23, 57, 475297)}
+ nuevo--> {'nombre': 'antonio', 'apellido1': 'bueno', 'apellido2': 'fuentes', 'dni': '31031786w', 'texto': 'afasfdsfdsa', 'fecha': datetime.datetime(2022, 4, 19, 8, 51, 47, 324014)}

@@ -20,7 +20,10 @@ from django.shortcuts import redirect
 """
 
 def formulario(request):
-	
+	"""
+	Esta funcion se encarga de poder decidir si se ha introducido los valores correctos y
+	si se cumlpe te lleva a la siguiente pestaña
+	"""
 	if request.method=="GET":
 		dic = {'nombre': request.GET.get("nombre",""),
 		"apellido1":request.GET.get("apellido1",""), 
@@ -38,6 +41,9 @@ def formulario(request):
 	succes_url=reverse_lazy("opciones:opciones") 
 	return render(request, "formulario/formulario.html",{"dic":dic})
 def insertar_en_base_de_datos(datos):
+	"""
+	Inserta los datos en la base de datos
+	"""
 	f = open ("log.txt", "a")  
 	f.write("Error"+str(datos)+"\n")
 	f.close()
@@ -53,6 +59,9 @@ def insertar_en_base_de_datos(datos):
 
 
 def validar_formulario(dic):
+	"""
+	Valida si el diccionario esta completo y no tiene valores vacios
+	"""
 	for i in dic.keys():	
 
 		if not dic[i]:
@@ -64,6 +73,9 @@ def validar_formulario(dic):
 
 	return True
 def validoDNI(dni): 
+	"""
+	Comprueba que el dni es correcto
+	"""
     tabla = "TRWAGMYFPDXBNJZSQVHLCKE"
     dig_ext = "XYZ"
     reemp_dig_ext = {'X':'0', 'Y':'1', 'Z':'2'}
@@ -79,7 +91,11 @@ def validoDNI(dni):
     return False
 
 def usuario_render_pdf_view(request,dic,descarga=False):
-    
+    """
+	Funcion que se encarga de generar y enviar un pdf al clientes y el cliente lo descarga seguna 
+	la variable descarga
+
+    """
 
 	template_path = 'formulario/generador_de_pdf.html'
 	context = dic
@@ -112,6 +128,9 @@ def usuario_render_pdf_view(request,dic,descarga=False):
 		return HttpResponse('We had some errors <pre>' + html + '</pre>')
 	return response
 def prueba_api(request):
+	"""
+	Api qeu devuelve un pdf con los valores introducidos 
+	"""
 	try:
 		if request.method=="GET":
 			"""
@@ -159,6 +178,9 @@ def prueba_api(request):
 	return render(request,"Error")
 
 def comprobacion_cookies(dic):
+	"""
+	Comprueba los cookies de los clientes
+	"""
 	datos=["nombre","apellido1","apellido2","dni","texto"]
 	for i in datos:
 		if i not in dic.keys():
@@ -168,6 +190,10 @@ def comprobacion_cookies(dic):
 	return True
 
 def formulario_confirmacion(request):
+	"""
+	Comprueba los cookies y el el formulario donde se encuentra y si son correctos le envia el ultimo formulario
+	Si son incorrectos envia al cliente al formulario de inicio 
+	"""
 	if validar_formulario(request.COOKIES) and comprobacion_cookies(request.COOKIES):
 		for i in request.COOKIES.keys():
 

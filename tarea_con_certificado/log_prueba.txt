@@ -10,3 +10,5 @@
  nuevo--> True 7
  nuevo--> True 7
  nuevo--> True 6
+ nuevo--> True 0
+ nuevo--> True 6

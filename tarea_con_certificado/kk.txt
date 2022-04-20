@@ -1295,3 +1295,9 @@ Error_dni nombre
 Error_dni nombre
 Error_dni nombre
 Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
+Error_dni nombre
