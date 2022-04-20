@@ -76,27 +76,25 @@ def validoDNI(dni):
 	"""
 	Comprueba que el dni es correcto
 	"""
-    tabla = "TRWAGMYFPDXBNJZSQVHLCKE"
-    dig_ext = "XYZ"
-    reemp_dig_ext = {'X':'0', 'Y':'1', 'Z':'2'}
-    numeros = "1234567890"
-    dni = dni.upper()
-    if len(dni) == 9:
-        dig_control = dni[8]
-        dni = dni[:8]
-        if dni[0] in dig_ext:
-            dni = dni.replace(dni[0], reemp_dig_ext[dni[0]])
-        return len(dni) == len([n for n in dni if n in numeros]) \
-            and tabla[int(dni)%23] == dig_control
-    return False
+	tabla = "TRWAGMYFPDXBNJZSQVHLCKE"
+	dig_ext = "XYZ"
+	reemp_dig_ext = {'X':'0', 'Y':'1', 'Z':'2'}
+	numeros = "1234567890"
+	dni = dni.upper()
+	if len(dni) == 9:
+		dig_control = dni[8]
+		dni = dni[:8]
+		if dni[0] in dig_ext:
+			dni = dni.replace(dni[0], reemp_dig_ext[dni[0]])
+		return len(dni) == len([n for n in dni if n in numeros]) \
+			and tabla[int(dni)%23] == dig_control
+	return False
 
 def usuario_render_pdf_view(request,dic,descarga=False):
-    """
+	"""
 	Funcion que se encarga de generar y enviar un pdf al clientes y el cliente lo descarga seguna 
 	la variable descarga
-
-    """
-
+	"""
 	template_path = 'formulario/generador_de_pdf.html'
 	context = dic
 	# Create a Django response object, and specify content_type as pdf
@@ -129,7 +127,7 @@ def usuario_render_pdf_view(request,dic,descarga=False):
 	return response
 def prueba_api(request):
 	"""
-	Api qeu devuelve un pdf con los valores introducidos.
+	Api qeu devuelve un pdf con los valores introducidos
 	"""
 	try:
 		if request.method=="GET":
