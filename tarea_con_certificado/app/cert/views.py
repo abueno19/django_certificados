@@ -129,7 +129,7 @@ def usuario_render_pdf_view(request,dic,descarga=False):
 	return response
 def prueba_api(request):
 	"""
-	Api qeu devuelve un pdf con los valores introducidos 
+	Api qeu devuelve un pdf con los valores introducidos.
 	"""
 	try:
 		if request.method=="GET":
