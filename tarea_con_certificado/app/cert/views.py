@@ -16,7 +16,7 @@ from io import StringIO, BytesIO
 from django.shortcuts import redirect
 # Create your views here.
 """	
-
+Me gustaria implementar una mayor securidad del codigo
 """
 
 def formulario(request):
@@ -127,14 +127,21 @@ def usuario_render_pdf_view(request,dic,descarga=False):
 	return response
 def api_pdf(request):
 	"""
-	Api que devuelve un pdf con los valores introducidos
+	Api que devuelve un pdf con los valores introducidos si son correctos
 	"""
 	try:
 		if request.method=="GET":
 			"""
 
 			Esto sera para la v3
-			objeto_dic=cert.objects.get(
+			Debido a que la version 3 no se iniciarano se a incluido este codigo
+			La version 3 iba a incluir que la clave que seria el certificado y con ella se generaria un fliltrado 
+			para que sea mas visual  para el usuario y selecionar el pdf que quiere ver/descargar/firma-descargar 
+
+			Este el codigo de ejemplo de como se lograria-->
+
+			--------------------------------------------------
+			objeto_dic=cert.objects.filter(
 				crsf=request.GET.get("crsf")
 				)
 			f = open ("log_api.txt", "a")  
@@ -147,6 +154,8 @@ def api_pdf(request):
 			"dni":datos[4],
 			"texto":datos[3],
 			"fecha":datetime.today()}
+
+			--------------------------------------------------
 			"""
 			dic = {'nombre': request.GET.get("nombre"),
 			"apellido1":request.GET.get("apellido1"), 
@@ -165,19 +174,21 @@ def api_pdf(request):
 				
 		else:
 			f = open ("log_api.txt", "a")  
-			f.write(" nuevo--> "+str("No ha entrado")+"\n")
+			f.write(" nuevo--> "+str("No ha entradodo debido ")+"\n")
 			f.close()
+			return HttpResponse("404")
 	except:
 		f = open ("log_api.txt", "a")  
 		f.write(" nuevo--> "+str("No ha entrado")+"\n")
 		f.close()
-		return render(request,"Error")
+		return HttpResponse("404")
 
-	return render(request,"Error")
+	return HttpResponse("404")
 
 def comprobacion_cookies(dic):
 	"""
 	Comprueba los cookies de los clientes
+	Si son incorrectos devuelve un false
 	"""
 	datos=["nombre","apellido1","apellido2","dni","texto"]
 	for i in datos:
@@ -200,6 +211,7 @@ def formulario_confirmacion(request):
 			f.close()
 		"""
 		Aqui tendra que ir una comprobacion elaborada de las cookies
+		Debido a que esto es una version de prueba no se a trabajado debidamente esta funcion
 		"""
 		return render(request,"formulario/formulario_confirmacion.html")
 	f = open ("log_prueba.txt", "a")  

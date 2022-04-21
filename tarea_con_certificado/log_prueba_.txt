@@ -781,3 +781,17 @@
  nuevo--> sessionid 7
  nuevo--> dni 7
  nuevo--> apellido1 7
+ nuevo--> nombre 7
+ nuevo--> apellido2 7
+ nuevo--> texto 7
+ nuevo--> csrftoken 7
+ nuevo--> sessionid 7
+ nuevo--> dni 7
+ nuevo--> apellido1 7
+ nuevo--> nombre 7
+ nuevo--> apellido2 7
+ nuevo--> texto 7
+ nuevo--> csrftoken 7
+ nuevo--> sessionid 7
+ nuevo--> apellido1 7
+ nuevo--> dni 7

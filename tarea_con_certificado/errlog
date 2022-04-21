@@ -19728,3 +19728,139 @@ Not Found: /
 /usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
   warnings.warn(
 expected string or bytes-like object
+Not Found: /api_prueba/
+Not Found: /api_prueba/
+Not Found: /favicon.ico
+Not Found: /api_prueba/
+Internal Server Error: /api_pdf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 176, in api_pdf
+    return render(request,"Error")
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Error
+Internal Server Error: /api_pdf/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/code/./app/cert/views.py", line 176, in api_pdf
+    return render(request,"Error")
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Error
+Not Found: /favicon.ico
+expected string or bytes-like object
+gateway "uWSGI http 1" has been buried (pid: 22)
+...brutally killing workers...
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr 21 12:46:58 2022] ***
+compiled with version: 8.3.0 on 18 April 2022 08:00:59
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: c7a8a5443773
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 11
+uwsgi socket 0 bound to TCP address 127.0.0.1:43911 (port auto-assigned) fd 10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559329d1bf90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559329d1bf90 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.20 (64bit) on [Thu Apr 21 12:47:08 2022] ***
+compiled with version: 8.3.0 on 18 April 2022 08:00:59
+os: Linux-5.13.0-39-generic #44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022
+nodename: c7a8a5443773
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /code
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /code/
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+building mime-types dictionary from file /etc/mime.types...565 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 9
+uwsgi socket 0 bound to TCP address 127.0.0.1:35833 (port auto-assigned) fd 8
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.12 (main, Mar 25 2022, 00:41:03)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b64b5e5fc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b64b5e5fc0 pid: 10 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10)
+spawned uWSGI worker 1 (pid: 12, cores: 1)
+spawned uWSGI worker 2 (pid: 13, cores: 1)
+spawned uWSGI worker 3 (pid: 14, cores: 1)
+spawned uWSGI worker 4 (pid: 15, cores: 1)
+spawned uWSGI worker 5 (pid: 16, cores: 1)
+spawned uWSGI worker 6 (pid: 17, cores: 1)
+spawned uWSGI worker 7 (pid: 18, cores: 1)
+spawned uWSGI worker 8 (pid: 19, cores: 1)
+spawned uWSGI worker 9 (pid: 20, cores: 1)
+spawned uWSGI worker 10 (pid: 21, cores: 1)
+spawned uWSGI http 1 (pid: 22)
+/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  warnings.warn(
+expected string or bytes-like object
+Not Found: /favicon.ico
