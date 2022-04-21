@@ -49,3 +49,4 @@ Error{'nombre': 'anotnio', 'apellido1': 'bueno', 'apellido2': 'fuesntes', 'dni':
 Error{'nombre': 'antonio', 'apellido1': 'bueno', 'apellido2': 'fuentes', 'dni': '31031786w', 'texto': '31dasdcas', 'fecha': datetime.datetime(2022, 4, 18, 13, 0, 17, 976774)}
 Error{'nombre': 'antonio', 'apellido1': 'bueno', 'apellido2': 'fuentes', 'dni': '31031786w', 'texto': 'adafa', 'fecha': datetime.datetime(2022, 4, 18, 13, 7, 56, 232136)}
 Error{'nombre': 'antonio', 'apellido1': 'bueno', 'apellido2': 'fuentes', 'dni': '31031786w', 'texto': 'afasfdsfdsa', 'fecha': datetime.datetime(2022, 4, 18, 13, 23, 45, 55271)}
+Error{'nombre': 'antonio', 'apellido1': 'bueno ', 'apellido2': 'fuentes ', 'dni': '31031786w', 'texto': 'dsafdsf', 'fecha': datetime.datetime(2022, 4, 21, 7, 24, 35, 547952)}

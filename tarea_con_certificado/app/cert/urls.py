@@ -19,7 +19,7 @@ from . import views
 app_name="opciones"
 urlpatterns = [
     path("formulario_v1/",views.formulario,name="formulario_v1"),
-    path("api_prueba/",views.prueba_api,name="api_prueba"),
+    path("api_pdf/",views.api_pdf,name="api_pdf"),
     path("formulario_confirmacion/",views.formulario_confirmacion,name="confirmacion"),
     
 

@@ -74,7 +74,7 @@ Formulario de confirmación
 			try {
 
 				AutoScript.downloadRemoteData(
-						"http://localhost:8000/api_prueba/?nombre="+getCookie("nombre")+"&apellido1="+getCookie("apellido1")+"&apellido2="+getCookie("apellido2")+"&dni="+getCookie("dni")+"&texto="+getCookie("texto")+"&descarga="+"True",
+						"http://localhost:8000/api_pdf/?nombre="+getCookie("nombre")+"&apellido1="+getCookie("apellido1")+"&apellido2="+getCookie("apellido2")+"&dni="+getCookie("dni")+"&texto="+getCookie("texto")+"&descarga="+"True",
 						doSignAndSave,
 						downloadedErrorCallback);
 			} catch(e) {
@@ -201,29 +201,29 @@ Formulario de confirmación
 			}
 		}
 
-		function doSignAndSave(data) {
-			
-			try {				
+			function doSignAndSave(data) {
+				
+				try {				
 
 
-				AutoScript.signAndSaveToFile(
-					"sign",
-					(data != undefined && data != null && data != "") ? data : null,
-					document.getElementById("algorithm").value,
-					document.getElementById("format").value,
-					document.getElementById("params").value,
-					null,
-					showSignResultCallback,
-					showErrorCallback);
+					AutoScript.signAndSaveToFile(
+						"sign",
+						(data != undefined && data != null && data != "") ? data : null,
+						document.getElementById("algorithm").value,
+						document.getElementById("format").value,
+						document.getElementById("params").value,
+						null,
+						showSignResultCallback,
+						showErrorCallback);
 
-			} catch(e) {
-				try {
-					
-				} catch(ex) {
-					
+				} catch(e) {
+					try {
+						
+					} catch(ex) {
+						
+					}
 				}
 			}
-		}
 		
 		
 		function showAppletLog() {
@@ -365,10 +365,10 @@ Formulario de confirmación
 	document.getElementById("titulo").innerHTML=getCookie("nombre")+" ¿Que quieres hacer?";
 	function url(valor){
 		if (valor){
-					window.location.assign("http://localhost:8000/api_prueba/?nombre="+getCookie("nombre")+"&apellido1="+getCookie("apellido1")+"&apellido2="+getCookie("apellido2")+"&dni="+getCookie("dni")+"&texto="+getCookie("texto")+"&descarga="+"True")
+					window.location.assign("http://localhost:8000/api_pdf/?nombre="+getCookie("nombre")+"&apellido1="+getCookie("apellido1")+"&apellido2="+getCookie("apellido2")+"&dni="+getCookie("dni")+"&texto="+getCookie("texto")+"&descarga="+"True")
 		}
 		else{
-					window.location.assign("http://localhost:8000/api_prueba/?nombre="+getCookie("nombre")+"&apellido1="+getCookie("apellido1")+"&apellido2="+getCookie("apellido2")+"&dni="+getCookie("dni")+"&texto="+getCookie("texto")+"&descarga="+"False")
+					window.location.assign("http://localhost:8000/api_pdf/?nombre="+getCookie("nombre")+"&apellido1="+getCookie("apellido1")+"&apellido2="+getCookie("apellido2")+"&dni="+getCookie("dni")+"&texto="+getCookie("texto")+"&descarga="+"False")
 		}
 
 	}

@@ -92,7 +92,7 @@ def validoDNI(dni):
 
 def usuario_render_pdf_view(request,dic,descarga=False):
 	"""
-	Funcion que se encarga de generar y enviar un pdf al clientes y el cliente lo descarga seguna 
+	Funcion que se encarga de generar y enviar un pdf al clientes y el cliente lo descarga segun 
 	la variable descarga
 	"""
 	template_path = 'formulario/generador_de_pdf.html'
@@ -125,9 +125,9 @@ def usuario_render_pdf_view(request,dic,descarga=False):
 	if pisa_status.err:
 		return HttpResponse('We had some errors <pre>' + html + '</pre>')
 	return response
-def prueba_api(request):
+def api_pdf(request):
 	"""
-	Api qeu devuelve un pdf con los valores introducidos
+	Api que devuelve un pdf con los valores introducidos
 	"""
 	try:
 		if request.method=="GET":
