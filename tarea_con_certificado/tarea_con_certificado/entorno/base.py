@@ -60,7 +60,6 @@ MIDDLEWARE = [
 ]
 CORS_ORIGIN_WHITELIST=(
     "http://localhost:8000",
-    "*"
     )
 
 ROOT_URLCONF = 'tarea_con_certificado.urls'
